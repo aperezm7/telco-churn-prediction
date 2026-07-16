@@ -8,7 +8,7 @@ In the telecommunications sector, customer retention is a key financial driver, 
 ```text
 telco-churn-prediction/
 ├── .github/workflows/    # CI (GitHub Actions) configurations
-├── models/
+├── models/               # Prediciton models dir 
 │   ├── neural_network/   
 │   └── xgboost/          
 ├── src/
