@@ -9,8 +9,8 @@ In the telecommunications sector, customer retention is a key financial driver, 
 telco-churn-prediction/
 ├── .github/workflows/    # CI (GitHub Actions) configurations
 ├── models/
-│   ├── neural_network/   # Trained classification model (joblib)
-│   └── xgboost/          # Preprocessing/scaling pipeline (joblib)
+│   ├── neural_network/   
+│   └── xgboost/          
 ├── src/
 |   ├──__pycache__/
 │   ├── api.py            # FastAPI main application
