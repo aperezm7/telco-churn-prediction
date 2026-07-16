@@ -17,3 +17,9 @@ services:
     
     # Automatically restart the container if it crashes
     restart: always
+
+  test:
+    build: .
+    command: pytest
+    depends_on:
+      - api

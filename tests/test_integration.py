@@ -1,8 +1,5 @@
 import requests
 
-
-
-
 def test_predict():
     json_request = {
       "model_type": "xgboost",
