@@ -8,6 +8,9 @@ In the telecommunications sector, customer retention is a key financial driver, 
 ```text
 telco-churn-prediction/
 ├── .github/workflows/    # CI (GitHub Actions) configurations
+├── colab/
+│   ├── churn_comparativa.ipynb   
+│   └── churn_prediction_model.ipynb   
 ├── models/               # Prediciton models dir 
 │   ├── neural_network/   
 │   └── xgboost/          
@@ -15,8 +18,14 @@ telco-churn-prediction/
 |   ├──__pycache__/
 │   ├── api.py            # FastAPI main application
 │   └── __init__.py
+├── tests/
+|   ├──requirements.txt
+│   ├── test_integration.py  # Tests integration
+│   └── __init__.py
+├── .gitignore
 ├── Dockerfile            # Container deployment blueprint
 ├── docker-compose.yml    # Local multi-container orchestration
+├── EDA.ipynb             # Exploratory Data Analysis
 ├── requirements.txt      # Python dependencies
 └── README.md
 ```
