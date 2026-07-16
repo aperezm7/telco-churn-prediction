@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  api:
+    # Build the image
+    build: .
+    
+    container_name: churn_api_container
+    
+    # Map port 8000
+    ports:
+      - "8000:8000"
+    
+    # Mount local files to the container so there is no need to rebuild the image
+    volumes:
+      - ./src:/code/src
+      - ./models:/code/models
+    
+    # Automatically restart the container if it crashes
+    restart: always
