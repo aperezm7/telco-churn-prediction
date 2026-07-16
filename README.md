@@ -19,3 +19,10 @@ telco-churn-prediction/
 ├── docker-compose.yml    # Local multi-container orchestration
 ├── requirements.txt      # Python dependencies
 └── README.md
+```
+## How to Run
+docker compose up --build 
+
+runs in http://0.0.0.0:8000 
+
+for documentation go to http://0.0.0.0:8000/docs

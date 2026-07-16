@@ -1,0 +1,37 @@
+# Entornos virtuales
+venv/
+env/
+ENV/
+*.pyc
+__pycache__/
+
+
+# Archivos de configuración local
+*.env
+*.local
+settings_local.py
+
+# Archivos de log
+*.log
+
+# Archivos de caché
+*.cache
+*.pot
+*.mo
+
+# Archivos de medios y estáticos generados
+/media/
+staticfiles/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de test
+.coverage
+htmlcov/
+
+.idea/
+.vscode
+
+.volume

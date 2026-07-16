@@ -56,3 +56,4 @@ urllib3==2.7.0
 uvicorn==0.51.0
 wrapt==2.2.2
 xgboost==3.2.0
+pytest==8.3.3
