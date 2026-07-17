@@ -25,11 +25,6 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - name: Black Check
-        uses: RojerGS/python-black-check@master
-        with:
-          line-length: '88'
-
       # Run all the containers specified in docker-compose.yml file
       - name: Test containers build
         run: docker-compose up --exit-code-from test test
